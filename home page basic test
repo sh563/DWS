@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> DWS WINE </title>
+<meta name= "DWS Drink" content="Wine">
+<meta name= "Drink" content="Wine">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+	<style>
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+html{
+			height:100%;
+			width: 100%;
+
+		}
+body{
+	width: 100%;
+	background: url("Mulled-wine-15-01.jpg");
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+	overflow-y:auto;
+}
+header{
+
+}
+
+table.a{
+	width: 100%;
+	padding: 2em;
+	font-style: oblique;
+	font-size : 3.8em;
+	color: #e6e6e6;
+	text-shadow: 1em 0.5em #a6a6a6;
+	font-family: Algerian; 
+	transform: translate(-20%, -38%);
+
+}
+table.b{
+			width: 100%;
+			font-style: oblique;
+			font-size : 1.3em;
+			color: white;
+			text-align: center;
+			margin: -5em 17em; 
+			text-shadow: 0 0 0.3em black;
+			position: fixe;
+			top: 0;
+
+}
+table.c{
+			width: 100%;
+			font-style: oblique;
+			font-size : 1.4em;
+			color: white;
+			text-align: center;
+			margin: -8em 0em; 
+			text-shadow: 0 0 0.3em black;
+}
+
+div.d{
+	background-color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	text-align: center;
+	margin: 5em -0.2em; 
+	text-shadow: 0 0 0.3em white;
+	font-family: Kunstler Script; 
+}
+
+div.center{
+	align: center;
+}
+img{
+	width: 8em;
+	height: auto;
+}
+table.e{
+	width: 100%;
+}
+tr.font{
+	
+}
+	</style>
+</head>
+
+	<body>
+		<header>
+			<table>
+				<tr>
+					<td><table class = "a">
+						<tr>
+							<td>DWS Wine</td>
+						</tr>
+						</table>
+					</td>
+					<td><table class = "b">
+						<tr>
+							<td><a href= "Home page.html">Home</a></td>
+							<td><a href= "Home page.html">wine</a></td>
+							<td><a href= "Home page.html">History</a></td>
+							<td><a href= "Home page.html">Extras</a></td>
+							<td><a href= "Home page.html">Contact</a></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<table class = "c">
+						<tr>
+							<td>Give me books, French wine, fruit, fine weather<br>
+								and a little music played out of doors by somebody I do not know<br>
+								---------------- John Keats
+							</td>
+						</tr>
+					</table>
+				</tr>
+			</table>
+		</header>
+		
+			<div class = "d">
+				<p>---------------------------------------------------Our Store ----------------------------------------------------</p>
+					<table class = "e">
+						<tr>
+							<td><img src ="thGTYYWT1J.jpg"></td>
+							<td><img src ="th2HE17SY2.jpg"></td>
+							<td><img src ="Wine-Duo.jpg"></td>
+						</tr>
+						<tr>
+							<td><p>Wine</p></td>
+							<td><p>Wine</p></td>
+							<td><p>Wine</p></td>
+						</tr>
+					</table>
+						
+			</div>
+	</body>
+</html>
