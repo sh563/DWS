@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<style>
+body{
+	background-image:url("wine1.jpg");
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+	overflow-y:auto;
+	background-color:rgba(122, 156, 155, 0.589);
+	}
+	
+header{	
+	
+	background-color:rgba(96, 117, 136, 0.185);
+	background-size: 100% 100%;
+	color:whitesmoke;
+	padding:20px;
+	text-align:center;
+	padding:30px;
+}
+p.a{
+	font-family:kunstler script;
+	font-size:90px;
+}
+
+p.b{
+	font-family:Forte;
+	font-size:30px;
+	color:whitesmoke;
+	
+
+}
+footer.f{
+	font-family:kunstler script;
+	background-color:rgba(96, 117, 136, 0.185);
+	font-size:90px;
+	color:whitesmoke;
+	padding:20px;
+	text-align:center;
+	padding:30px;
+
+
+}
+
+p.h0{
+	background-image: url("mulled-wine.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+}
+		</style>				
+		
+</head>
+
+<body>
+		
+		<header class="header"> 
+								<p class="a">
+											History
+								</p>
+								
+											
+		</header>
+		
+								<p class="b">
+									DWS Wine Group is the home of Chinese family of companies. Each business is bound together around a mission to MAKE LIFE MORE JOYFUL and our family values known by the acronym R.E.A.C.H. - Respect, Evolution, Adventure, Character, & Humility. 
+
+									​
+									
+									Whether in wine, hospitality, or event production, we strive to create JOY
+									
+									for our customers, our team, our community, and the world.
+									
+
+									DWS Wine Group is the realization of our vision to tell stories through wine.
+
+ 
+
+                                    We built careers in some of the largest, most successful wine companies in the world, 
+                                    but that sometimes meant toeing the company line rather than doing what was right for our relationships,
+                                    our brands, or the health of the business. 
+  									So we set out to build a company that would put those things first.
+  									Building a new company has been the hardest work we’ve ever done, 
+  									but we feel lucky to work with people we trust, sell wines that we believe in, 
+  									and make the decisions that we feel are good, not just beneficial. 
+									​
+											
+								</p>
+<footer class="f">
+								<p class="h0">
+									footer
+								
+								</p>
+							
+
+
+
+
+
+</footer>								
+
+
+</body>
+</html>
