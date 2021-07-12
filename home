@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> DWS WINE </title>
+<meta name= "DWS Drink" content="Wine">
+<meta name= "Drink" content="Wine">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+	<style>
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover:not(.active) {
+  text-decoration: none;
+  color: rgba(0, 255, 255, 0.8);
+}
+html{
+	height:100%;
+	width: 100%;
+}
+body{
+	width: 100%;
+	background: url("Mulled-wine-15-01.jpg");
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+	overflow-y:auto;
+}
+
+
+table.a{
+	width: 50%;
+	padding: 2em;
+	font-style: oblique;
+	font-size : 4.5em;
+	color: #e6e6e6;
+	text-shadow: 1em 0.5em #a6a6a6;
+	font-family: Algerian; 
+	transform: translate(-12%, -75%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0.2em;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.6em;
+	text-shadow: 0 0 0.3em black;
+}
+
+li {
+    float: right;
+}
+
+li a.navigation {
+	font-style: oblique;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2em 2em;
+	text-decoration: none;
+}
+
+
+
+table.c{
+	width: 100%;
+	font-style: oblique;
+	font-size : 1.4em;
+	color: white;
+	text-align: center;
+	margin: -15em 0em; 
+	text-shadow: 0 0 0.3em black;
+}
+
+div.d{
+	background-color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	margin: 6.5em -0.2em; 
+	text-shadow: 0 0 0.3em white;
+	font-family: Kunstler Script; 
+	
+}
+
+div.center{
+	align: center;
+}
+img{
+	width: 8em;
+	height: auto;
+}
+
+table.e{
+	width: 100%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0.5em;
+    text-align: center;
+	font-size: 0.4em;
+	font-family: Bell MT;
+	font-style: oblique;
+}
+div.name {
+    padding: 0.4em;
+    text-align: right;
+	font-size: 0.3em;
+	font-family: Bell MT;
+	font-style: oblique;
+	margin: 0 4em;
+}
+ul.shop {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.6em 0.15em;
+	width: 53%;
+}
+
+
+li a.active {
+	background-color: #000033;
+	padding: 0.3em 1em;
+	color: white;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 0.3em;
+	font-family: Bell MT;
+	text-shadow: 0.1 white;
+}
+li a:hover:not(.navigation) {
+	background-color: rgba(0, 0, 51, 0.5);
+	color: rgba(250 250 250 0.5);
+}
+div.font{
+	text-align: center;
+	font-style: oblique;
+	font-size : 3em;
+	color: white;
+	text-shadow: 0 0 0.6em black;
+	transform: translate(-0.5em , -400%);
+	font-family: Bell MT; 
+}
+div.sentence{
+	padding: 3em;
+	background-color: rgb(36, 42, 53);
+	text-align: center;
+	font-style: oblique;
+	font-size : 2em;
+	color: white;
+	transform: translate(-0.5em , 0);
+	margin: 0 -0.3em;
+	font-family: Bell MT; 
+}
+footer{
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	color: white;
+	margin: -0.13em -0.13em;
+	font-family: Bell MT; 
+}
+table.foot{
+	width: 100%;
+	text-align: left;
+}
+
+
+.font_a{
+	width: 47%;
+	padding-left: 11em;
+	padding-bottom: 1em;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.75em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+
+}
+.font_b{
+	padding-top: 1em;
+	padding-right: 3em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+.font_c{
+	padding-top: 1em;
+	padding-right:7em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+a.font_d {
+	padding-left: 20.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_e {
+	padding-left: 0em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_f {
+	padding-right: 3.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+
+	</style>
+</head>
+
+	<body>
+		<header>
+			<table class = "a">
+				<tr>
+					<td><a href= "DWS Drinks.html">DWS Wine &#8902;</a></td>
+					<ul>
+						<li><a class = "navigation" href= "Contact.html">Contact</a></li>
+						<li><a class = "navigation" href= "History.html">History</a></li>
+						<li><a class = "navigation" href= "Extras.html">Extras</a></li>
+						<li><a class = "navigation" href= "Wine.html">Wine</a></li>
+						<li><a class = "navigation" href= "Home page.html">Home</a></li>
+					</ul>
+				</tr>
+				<tr>
+					<table class = "c">
+						<tr>
+							<td>Give me books, French wine, fruit, fine weather<br>
+								and a little music played out of doors by somebody I do not know<br>
+								---------------- John Keats
+							</td>
+						</tr>
+					</table>
+				</tr>
+			</table>
+		</header>
+		
+			<div class = "d">
+				<p>---------------------------------------------------Our Store ----------------------------------------------------</p>
+					<table class = "e">
+						<tr>
+							<td><a href= "Home page.html">
+									<img src ="thGTYYWT1J.jpg">
+								</a>
+								<div class="desc">The Footbolt Special Basket <br><br> $1999.00</div>
+								<div class="desc">"A man will be eloquent if you give him good wine"</div>
+								<div class="name">Ralph Waldo Emerson</div>
+							</td>
+							<td><a href= "Home page.html">
+									<img src ="th2HE17SY2.jpg">
+								</a>
+								<div class="desc">The Footbolt Special Box <br><br> $2999.00</div>
+								<div class="desc">"Better is old wine than new, and old friends like wise"</div>
+								<div class="name">Charles Kingsley</div>
+							</td>
+							<td><a href= "Home page.html">
+									<img src ="Wine-Duo.jpg">
+								</a>
+								<div class="desc">The Footbolt Wine With Villa Special <br><br> $5200.00</div>
+								<div class="desc">"The Best gift for Lover"</div>
+								<div class="name">DWS Wine</div>
+							</td>
+						</tr>	
+					</table>
+					
+						<ul class = "shop">
+							<li><a class = "active" href= "Wine.html">Shop Now</a></li>
+						</ul>
+			</div>
+				<div class = "font">
+					<a class = "navigation" href= "History.html">Our History</a>
+				</div>
+			<div class = "sentence">
+				<p>"Three be the things I shall never attain: envy, content and sufficient champagne."</p>
+				<p>Dorothy Parker</p>
+				<br>
+			</div>
+	</body>
+	<footer>
+	<br>
+		<table class = "foot">
+			<tr>
+				<th class = "font_a">
+					Get to Know 
+					<br>Dws Wine Better
+				</th>
+				<th class = "font_b">
+					Help
+
+				</th>
+				<th class = "font_c">
+					Follow Us
+
+				</th>
+				</th>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Home page.html">Home</a></td>
+				<td><a class = "font_e" href= "Question.html">FAQ</a></td>
+				<td><a class = "font_f" href= "https://www.facebook.com/">Facebook</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Wine.html">Shop All</a></td>
+				<td><a class = "font_e" href= "Returns.html">Shipping & Returns</a></td>
+				<td><a class = "font_f" href= "https://www.instagram.com/">Instagram</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Extras.html">Extras</a></td>
+				<td><a class = "font_e" href= "Policy.html">Store Policy</a></td>
+				<td><a class = "font_f" href= "Pinterest.html">Pinterest</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "History.html">About Us</a></td>
+				<td><a class = "font_e" href= "Policy.html">Payment Methods</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Contact.html">Contact</a></td>
+			</tr>
+		</table>
+	<br><br><br>
+	</footer>
+</html>
